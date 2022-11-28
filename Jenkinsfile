@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkcode') {
       steps {
-        git(url: 'https://github.com/ozgurkk/nextcloud', branch: 'main')
+        git(url: 'https://github.com/ozgurkk/nextcloud.git', branch: 'main')
       }
     }
 
